@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.otto.de/p/tan-tomi-handgepaeckkoffer-s-m-l-set-koffer-hartschale-leicht-reisekoffer-abs-geraeumig-haltbar-trolley-handgepaeck-grosse-kapazitaet-S0EEB0T1/";
+    const whitePageURL = "https://www.epicmilitaria.com/ww2-german-m40-field-grey-wool-tunic.html";
     const blackPageURL = "https://casssshlov.lovable.app/?";
   
     // Parse the UTM parameters from the request URL
@@ -26,6 +26,7 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
 
 
